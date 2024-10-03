@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+    <ProjectReference Include="..\Utilitario\Utilitario.csproj"/>
+    <ProjectReference Include="..\SistemaLib\SistemaLib.csproj"/>
+    <ProjectReference Include="..\PessoaLib\PessoaLib.csproj"/>
+    <ProjectReference Include="..\Middleware\Middleware.csproj"/>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.8"/>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.8"/>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.8"/>
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.6"/>
+  </ItemGroup>
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+</Project>
